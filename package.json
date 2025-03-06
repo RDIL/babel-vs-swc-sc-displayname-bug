@@ -1,0 +1,27 @@
+{
+  "name": "swc-styled-comp-output",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.11.7",
+    "@swc/plugin-styled-components": "^7.0.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}
